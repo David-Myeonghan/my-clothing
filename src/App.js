@@ -32,13 +32,13 @@ class App extends React.Component {
 								id: snapShot.id,
 								...snapShot.data(),
 							},
-						},
+						}
 						// ,
 						// () => { // To see the result, as this is async.
 						// 	console.log(this.state);
 						// }
-						console.log(this.state)
 					);
+					// console.log(this.state);
 				});
 			} else {
 				this.setState({ currentUser: userAuth });
